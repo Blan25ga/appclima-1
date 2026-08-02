@@ -2,7 +2,7 @@ async function getdata() {
     var inputVal = document.getElementById("searchTxt").value;
 
     const res = await fetch(
-        "https://weatherapi-com.p.rapidapi.com/current.json?q=q=" + inputVal, {
+        "https://weatherapi-com.p.rapidapi.com/current.json?q=" + inputVal, {
             method: "GET",
             headers: {
                 "x-rapidapi-host": "weatherapi-com.p.rapidapi.com",
